@@ -2057,7 +2057,7 @@ Generating `clj-kondo` configuration from current namespace:
 (require '[malli.clj-kondo :as mc])
 
 (-> (mc/collect *ns*) (mc/linter-config))
-;{:lint-as #:malli.schema{defn schema.core/defn},
+;{:lint-as #:malli.experimental.schema{defn schema.core/defn},
 ; :linters
 ; {:type-mismatch
 ;  {:namespaces
